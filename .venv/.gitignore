@@ -1,0 +1,20 @@
+# Ignore Node.js dependency folder
+node_modules/
+
+# Ignore Python virtual environment folders
+.venv/
+venv/
+
+# Ignore compiled Python files
+__pycache__/
+
+# Ignore build output folders
+dist/
+.parcel-cache/
+
+# --- THIS IS THE MOST IMPORTANT LINE ---
+# Ignore all environment files containing secret keys
+.env*
+
+# Ignore system files
+.DS_Store
